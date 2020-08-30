@@ -21,15 +21,14 @@
 .square:focus {
   outline: none;
 }
- 
- 
- /* Board */
+
+/* Board */
 .board-row:after {
   clear: both;
   content: "";
   display: table;
- }
- /* Game */
+}
+/* Game */
 .game {
   position: absolute;
   top: 50%;
@@ -37,16 +36,16 @@
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;
-  margin: 0 auto;  
- }
- /* Game Info */
+  margin: 0 auto;
+}
+/* Game Info */
 ul {
   padding-left: 30px;
- }
- .game-info {
+}
+.game-info {
   margin-left: 20px;
   font-weight: bold;
- }
- .status {
+}
+.status {
   margin-bottom: 10px;
- }
+}
